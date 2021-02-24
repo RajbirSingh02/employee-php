@@ -19,7 +19,7 @@ $password = $url["pass"];
 $dbname = substr($url["path"], 1);
 
 $conn = new mysqli($server, $username, $password, $dbname);
-echo "Extracted Info $server $username $password $dbname<br>";
+//echo "Extracted Info $server $username $password $dbname<br>";
 ?>
 
 
